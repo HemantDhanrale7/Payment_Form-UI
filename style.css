@@ -1,0 +1,23 @@
+h1 {
+  text-align: center;
+  color: white;
+  font: bold;
+  font-size: 50px;
+}
+h3 {
+  font-size: medium;
+}
+header {
+  color: blue;
+  font-style: normal;
+  background-color: rgb(172, 186, 248);
+  padding: 10px;
+  font-size: 20px;
+  text-align: right;
+}
+
+p {
+  font-size: larger;
+  font-weight: bolder;
+}
+

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment form </title>
+    <!-- <link rel="stylesheet" href="Style_2.css"> -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1> PayMoney Gateway
+            <img src="Logo_3.png" alt="This is Symbol" width="100px height=" 100px">
+
+        </h1> <small>
+
+            <form action="#"></form>
+            <h3>
+                <P>
+                    <a href=" https://paytm.com/" target="_blank">Wallet</a> |
+                    <a href="https://www.bhimupi.org.in/" target="_blank">UPI</a> |
+                    <a href="https://netbanking.hdfcbank.com/netbanking/" target="_blank">NetBanking</a> |
+                    <a href="https://www.google.co.in/" target="_blank">Cards</a>
+                </P>
+            </h3>
+    </header>
+
+    <form action="page2.html">
+        <h2>Enter your details :</h2>
+        <p>* required</p>
+        <p>* Full Name: <input type="text" name="name" id="name1" required></p>
+
+        <p>
+        <fieldset>
+            <legend style="font-weight: bolder; font-size: larger;"> * Gender</legend>
+            Male <input type="radio" name="gender" id="male">
+            female <input type="radio" name="gender" id="female">
+            other <input type="radio" name="gender" id="other">
+        </fieldset>
+        <div class="Address">
+            <p> * Address: <textarea name="Address" cols="100" rows="4" required></textarea> </p>
+            <p>* Email: <input type="email" name="email" id="" required></p>
+            <p> * pin code : <input type="number" name="Pin code" id="" required> </p>
+        </div>
+        <fieldset>
+            <legend>
+                <h3>Payment Information</h3>
+            </legend>
+
+            <p>
+                Payment Type :
+                <select name="Payment_type" id="Payment_type">
+                    <option value="Select type">Select type</option>
+                    <option value="UPI">UPI</option>
+                    <option value="Wallet">Wallet</option>
+                    <option value="Card">Card</option>
+                </select>
+            </p>
+            <p>Card Type :
+                <select name="Card_type" id="Card_type">
+                    <option value="">Select Card Type</option>
+                    <option value="Visa">Visa</option>
+                    <option value="MasterCard">MasterCard</option>
+                    <option value="Rupay">Rupay</option>
+                    <option value="Other">Other</option>
+                </select>
+            </p>
+            <p>*Card number <input type="number" name="Card_number" id="Card_number" required> </p>
+            <p>*Expiry Date <input type="date" name="expiry_date" id="expiry_date" required> </p>
+            <p> *CVV <input type="password" name="CVV" id="CVV" required> </p>
+            <p> *Name on Card: <input type="name_oncard" name="name_oncard" id="" required> </p>
+
+            <input type="submit" value="Pay Now" target="Page_2">
+        </fieldset>
+
+        <br>
+        <footer>
+            <P>
+                <a href=" https://www.google.co.in/" target="_blank">Google</a> |
+                <a href="#">FAQ</a> | <a href="#">Help</a> |
+                <a href="#">Sitemap</a> |
+            </p>
+        </footer>
+
+        </P>
+    </form>
+
+</body>
+
+</html>
